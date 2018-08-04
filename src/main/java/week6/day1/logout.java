@@ -8,7 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Test;
 
-public class login {
+public class logout {
     
 	@Test
 	public void login() throws IOException
@@ -32,7 +32,6 @@ public class login {
 				// fetch the data
 				String data = cell.getStringCellValue();
 				System.out.println(data);
-				System.out.println("Modified code");//New Code
 			}
 		}
 		wBook.close();

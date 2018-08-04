@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74061" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:33:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="74061" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:33:55Z">
+      <class name="test.TC_005MergeLead">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="startSuite" is-config="true" duration-ms="1971" started-at="2018-08-04T10:32:39Z" finished-at="2018-08-04T10:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="setValues" is-config="true" duration-ms="0" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="startTest" is-config="true" duration-ms="2" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@11fba17]" name="login" is-config="true" duration-ms="12359" started-at="2018-08-04T10:32:42Z" finished-at="2018-08-04T10:32:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="mergeLead(java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@11fba17]" name="mergeLead" duration-ms="57995" started-at="2018-08-04T10:32:55Z" data-provider="fetchData" finished-at="2018-08-04T10:33:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10027]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="close" is-config="true" duration-ms="2164" started-at="2018-08-04T10:33:53Z" finished-at="2018-08-04T10:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="endSuite" is-config="true" duration-ms="1067" started-at="2018-08-04T10:33:55Z" finished-at="2018-08-04T10:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- test.TC_005MergeLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="LeadSequence">
+    <classes>
+      <class name="testcase.CreateLead"/>     
+      <class name="testcase.EditLead"/>
+     </classes>
+  </test> <!-- Test -->
+  <test  name="LeadParallel" parallel="classes">
+    <classes>      
+      <class name="testcase.DeleteLead"/>     
+      <class name="testcase.MergeLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

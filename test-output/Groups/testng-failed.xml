@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Groups]">
+  <test thread-count="5" name="TestGroups(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcase.DuplicateLead">
+        <methods>
+          <include name="duplicateLead"/>
+        </methods>
+      </class> <!-- testcase.DuplicateLead -->
+      <class name="testcase.MergeLead">
+        <methods>
+          <include name="mergeLead"/>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcase.MergeLead -->
+    </classes>
+  </test> <!-- TestGroups(failed) -->
+</suite> <!-- Failed suite [Groups] -->

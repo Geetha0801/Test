@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="74061" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:33:55Z">
+  <suite name="Suite" duration-ms="89127" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:50:38Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="74061" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:33:55Z">
+    <test name="Test" duration-ms="89127" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:50:38Z">
       <class name="test.TC_005MergeLead">
-        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="startSuite" is-config="true" duration-ms="1971" started-at="2018-08-04T10:32:39Z" finished-at="2018-08-04T10:32:41Z">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="startSuite" is-config="true" duration-ms="2627" started-at="2018-08-11T11:49:06Z" finished-at="2018-08-11T11:49:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSuite -->
-        <test-method status="PASS" signature="setValues()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="setValues" is-config="true" duration-ms="0" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:32:41Z">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="setValues" is-config="true" duration-ms="0" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:49:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValues -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="startTest" is-config="true" duration-ms="2" started-at="2018-08-04T10:32:41Z" finished-at="2018-08-04T10:32:41Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="startTest" is-config="true" duration-ms="0" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:49:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@11fba17]" name="login" is-config="true" duration-ms="12359" started-at="2018-08-04T10:32:42Z" finished-at="2018-08-04T10:32:55Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@10366b4]" name="login" is-config="true" duration-ms="14376" started-at="2018-08-11T11:49:10Z" finished-at="2018-08-11T11:49:24Z">
           <params>
             <param index="0">
               <value>
@@ -40,27 +40,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="mergeLead(java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@11fba17]" name="mergeLead" duration-ms="57995" started-at="2018-08-04T10:32:55Z" data-provider="fetchData" finished-at="2018-08-04T10:33:53Z">
+        <test-method status="PASS" signature="mergeLead(java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@10366b4]" name="mergeLead" duration-ms="70891" started-at="2018-08-11T11:49:24Z" data-provider="fetchData" finished-at="2018-08-11T11:50:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10025]]>
+                <![CDATA[10005]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[10027]]>
+                <![CDATA[10009]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mergeLead -->
-        <test-method status="PASS" signature="close()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="close" is-config="true" duration-ms="2164" started-at="2018-08-04T10:33:53Z" finished-at="2018-08-04T10:33:55Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="close" is-config="true" duration-ms="2231" started-at="2018-08-11T11:50:35Z" finished-at="2018-08-11T11:50:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.TC_005MergeLead@11fba17]" name="endSuite" is-config="true" duration-ms="1067" started-at="2018-08-04T10:33:55Z" finished-at="2018-08-04T10:33:56Z">
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="endSuite" is-config="true" duration-ms="1095" started-at="2018-08-11T11:50:38Z" finished-at="2018-08-11T11:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSuite -->

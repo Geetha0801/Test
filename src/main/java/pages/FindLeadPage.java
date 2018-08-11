@@ -40,6 +40,9 @@ public class FindLeadPage extends Annotations {
 	@FindBy(xpath ="//div[@class='x-grid3-cell-inner x-grid3-col-firstName']")
 	WebElement eleLFName;
 	
+	@FindBy(className ="x-paging-info")
+	WebElement eleMTxt;
+	
 	public FindLeadPage typeFirstName(String fName)
 	{
 		type(eleFirstName,fName);
@@ -115,6 +118,12 @@ public class FindLeadPage extends Annotations {
 	public FindLeadPage verifyResultingLead(String result)
 	{
 		verifyExactText(eleFirstName,result);
+		return this;
+	}
+	
+	public FindLeadPage verifyResultingLeadMsg(String result)
+	{
+		verifyExactText(eleMTxt,result);
 		return this;
 	}
 	}

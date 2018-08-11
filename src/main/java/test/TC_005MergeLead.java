@@ -34,7 +34,7 @@ public class TC_005MergeLead extends Annotations {
 		.clickFirstLeadId()
 		.timeOut()
 		.switchMWindow(0)
-		.timeOut()		
+		//.timeOut()		
 		.clickToLead()
 		.switchWindow(1)
 		.timeOut()
@@ -44,7 +44,7 @@ public class TC_005MergeLead extends Annotations {
 		.clickFirstLeadId()
 		.timeOut()
 		.switchMWindow(0)
-		.timeOut()
+		//.timeOut()
 		.clickMerge()
 		.actAlert()
 		//.timeOut()
@@ -54,7 +54,7 @@ public class TC_005MergeLead extends Annotations {
 		.timeOut()
 		.clickFindLeadsButton()
 		.timeOut()
-		.verifyResultingLead("No records to display");
+		.verifyResultingLeadMsg("No records to display");
 		
 				
 		

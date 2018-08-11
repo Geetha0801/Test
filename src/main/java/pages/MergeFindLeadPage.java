@@ -24,7 +24,7 @@ public class MergeFindLeadPage  extends Annotations{
 	@FindBy (xpath = "//td[@class='x-btn-center']")
 	WebElement eleFindLeadBtn;
 	
-	@FindBy (xpath = "//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a[1]")
+	@FindBy (xpath = "//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a")
 	WebElement eleFirstLeadId;
 	
 	public MergeFindLeadPage typeLeadID(String LeadId) throws InterruptedException

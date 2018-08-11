@@ -20,7 +20,7 @@ public class TC_003DeleteLead extends Annotations {
 		 
 	 }
 	@Test(dataProvider="fetchData")
-	public void deleteLead(String phone) throws Exception
+	public void deleteLead(String phone,String ID) throws Exception
 	{
 		new MyHomePage()
 		.clickLeads()
@@ -32,7 +32,7 @@ public class TC_003DeleteLead extends Annotations {
 		.clickLeadId()
 		.clickDelete()
 		.clickFindLeads()
-		.typeLeadId()
+		.typeLeadId(ID)
 		.clickFindLeadsButton()
 		.verifyResultingLead("No records to display");
 		

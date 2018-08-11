@@ -224,12 +224,12 @@ public class SeMethods extends Report implements WdMethods {
 		// System.out.println(title);
 		if (expectedTitle.equals(title)) {
 			//System.out.println("Title is matched");
-			reportStep("Title is matched","Pass");
+			reportStep("Title "+title+" is matched","Pass");
 			takeSnap();
 			bReturn = true;
 		} else {
 			//System.out.println("Title is not matched");
-			reportStep("Title is not matched","Fail");
+			reportStep("Title "+title+"is not matched","Fail");
 			takeSnap();
 
 		}
@@ -238,7 +238,8 @@ public class SeMethods extends Report implements WdMethods {
 	}
 
 	public void timeOuts() throws Exception {
-		Thread.sleep(3000);
+		Thread.sleep(5000);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	public void verifyExactText(WebElement ele, String expectedText) {
@@ -328,7 +329,7 @@ public class SeMethods extends Report implements WdMethods {
 			//System.err.println("Exception occured");
 			reportStep("Exception has occured","Fail");
 		} finally {
-			takeSnap();
+//			takeSnap();
 		}
 	}
 

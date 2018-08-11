@@ -75,9 +75,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.0</version>
 				<configuration>
-					<includes>
-					   <include>RunCukes</include>
-					</includes>
+					<suiteXmlFiles>
+					<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
 				</configuration>								
 			</plugin>			
 		</plugins>	

@@ -1,70 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="89127" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:50:38Z">
+  <suite name="Default suite" duration-ms="156" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="89127" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:50:38Z">
-      <class name="test.TC_005MergeLead">
-        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="startSuite" is-config="true" duration-ms="2627" started-at="2018-08-11T11:49:06Z" finished-at="2018-08-11T11:49:08Z">
+    <test name="Default test" duration-ms="156" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
+      <class name="coding.SwapingWithoutVarible">
+        <test-method status="PASS" signature="startTimer()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="startTimer" is-config="true" duration-ms="16" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startSuite -->
-        <test-method status="PASS" signature="setValues()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="setValues" is-config="true" duration-ms="0" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:49:08Z">
+        </test-method> <!-- startTimer -->
+        <test-method status="PASS" signature="swapingWithout3Varible()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="swapingWithout3Varible" duration-ms="29" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setValues -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="startTest" is-config="true" duration-ms="0" started-at="2018-08-11T11:49:08Z" finished-at="2018-08-11T11:49:08Z">
+        </test-method> <!-- swapingWithout3Varible -->
+        <test-method status="PASS" signature="startTimer()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="startTimer" is-config="true" duration-ms="0" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@10366b4]" name="login" is-config="true" duration-ms="14376" started-at="2018-08-11T11:49:10Z" finished-at="2018-08-11T11:49:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://leaftaps.com/opentaps]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DemoSalesManager]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[crmsfa]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- startTimer -->
+        <test-method status="PASS" signature="swapingWithout3rdVarible()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="swapingWithout3rdVarible" duration-ms="0" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="mergeLead(java.lang.String, java.lang.String)[pri:0, instance:test.TC_005MergeLead@10366b4]" name="mergeLead" duration-ms="70891" started-at="2018-08-11T11:49:24Z" data-provider="fetchData" finished-at="2018-08-11T11:50:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10005]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10009]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- swapingWithout3rdVarible -->
+        <test-method status="PASS" signature="endTimer()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="endTimer" is-config="true" duration-ms="0" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mergeLead -->
-        <test-method status="PASS" signature="close()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="close" is-config="true" duration-ms="2231" started-at="2018-08-11T11:50:35Z" finished-at="2018-08-11T11:50:38Z">
+        </test-method> <!-- endTimer -->
+        <test-method status="PASS" signature="startTimer()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="startTimer" is-config="true" duration-ms="0" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.TC_005MergeLead@10366b4]" name="endSuite" is-config="true" duration-ms="1095" started-at="2018-08-11T11:50:38Z" finished-at="2018-08-11T11:50:39Z">
+        </test-method> <!-- startTimer -->
+        <test-method status="PASS" signature="endTimer()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="endTimer" is-config="true" duration-ms="0" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endSuite -->
-      </class> <!-- test.TC_005MergeLead -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- endTimer -->
+        <test-method status="PASS" signature="swapingWithoutTempVarible()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="swapingWithoutTempVarible" duration-ms="0" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swapingWithoutTempVarible -->
+        <test-method status="PASS" signature="endTimer()[pri:0, instance:coding.SwapingWithoutVarible@153f17c]" name="endTimer" is-config="true" duration-ms="0" started-at="2018-08-15T18:31:28Z" finished-at="2018-08-15T18:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTimer -->
+      </class> <!-- coding.SwapingWithoutVarible -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

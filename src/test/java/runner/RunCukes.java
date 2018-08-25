@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 	
 @RunWith(Cucumber.class)
-	@CucumberOptions(features= {"src/main/java/featuretestcases/MergeLead.feature"},
+	@CucumberOptions(features= {"src/main/java/featuretestcases/CreateLead.feature"},
 	           glue= {"learncucumber","pagesimplementation"},
 			monochrome= true)
 
